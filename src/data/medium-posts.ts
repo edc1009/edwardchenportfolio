@@ -17,7 +17,7 @@ export const mediumPosts: MediumPost[] = [
     isExternal: true
   },
   {
-    title: "完整分析及證據：香港名校中學生發明 MediSafe 應用程式之爭議",
+    title: "Complete Analysis and Evidence: The MediSafe App Invention Controversy by Hong Kong Elite Secondary School Students",
     url: "https://medium.com/@heilcheng2-c/完整分析及證據-香港名校中學生發明-medisafe-應用程式之爭議-43c18f1d8c1b",
     publishedAt: "2025-06-23",
     summary: "An in-depth analysis with evidence regarding the controversy surrounding the MediSafe app invention by Hong Kong elite secondary school students.",
@@ -28,4 +28,4 @@ export const mediumPosts: MediumPost[] = [
 
 export function getMediumPosts(): MediumPost[] {
   return mediumPosts;
-} 
+}

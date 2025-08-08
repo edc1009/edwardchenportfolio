@@ -2,15 +2,15 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon, SparklesIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Hailey Cheng",
-  initials: "HC",
+  name: "Edward Chen",
+  initials: "EC",
   url: "https://heilcheng.github.io",
-  location: "Hong Kong",
-  locationLink: "https://www.google.com/maps/place/hongkong",
+  location: "Los Angeles (Willing to relocate)",
+  locationLink: "https://www.google.com/maps/place/los+angeles",
   description:
-    "A rising junior with research interests in Mathematical Biology and AI for biomedicine. I'm also a software engineer specializing in AI/ML, and I love building fun, meaningful apps with React Native. On the side, I share my journey with over 10,000 followers on Threads and 25,000 on LinkedIn.",
+    "Product Manager with expertise in logistics, Web3, and UX design. Experienced in leading cross-functional teams, driving product innovation, and delivering scalable solutions that improve operational efficiency and user experience.",
   summary:
-    "I'm a Homo sapiens born and raised in Hong Kong. I also spent a year studying in the UK and semesters in the US and France, experiences that opened my mind and shaped how I see the world.\n\nBefore university, I was that kid obsessed with biology and completely hooked on the Olympiad. I loved exploring the mysteries of life. But after countless hours pipetting in the lab, I started to feel burnt out. I realized I loved biology, just not the endless wet lab work.\n\nAt the same time, I discovered the beauty and speed of simulations, where you can explore complex systems without spilling a single drop. One day, I had a lightbulb moment: \"What if I could use math and code to solve big biology questions instead?\" That idea completely changed my path.\n\nAnd so, here I am, merging my love for biology with the power of math and computation.\n\nWhen I'm not coding or solving equations, you'll find me kayaking, playing tennis, or on a mission to hunt down the best ramen and handmade pasta in Hong Kong (I might have tried them all by now). And when it comes to boba, it's always \"No.1\" at Comebuytea.",
+    "I'm a Product Manager with a passion for building products that solve real-world problems. My journey has taken me from the fast-paced world of Web3 exchanges in Taiwan to logistics innovation in Los Angeles.\n\nAt ACE Exchange, Taiwan's largest Web3 platform, I led an 11-member squad to revamp the app deposit journey, increasing conversion rates by 30% and doubling deposit rates. I built comprehensive data tracking systems and created dashboards that provided crucial insights into user behavior and product performance.\n\nCurrently at Pioneer Global Logistics, I'm redesigning booking management systems and engineering scalable 3PL integration frameworks. I've reduced manual processes by 40-70% through automation and created real-time KPI dashboards that increased operational capacity by 20%.\n\nI believe in data-driven decision making, user-centric design, and the power of cross-functional collaboration to deliver exceptional products.",
   avatarUrl: "/me.jpeg",
 
   navbar: [
@@ -19,8 +19,8 @@ export const DATA = {
     { href: "/showcase", icon: SparklesIcon, label: "Showcase" },
   ],
   contact: {
-    email: "haileycheng@proton.me",
-    tel: "+852-XXX-XXX-XXX",
+    email: "chen.i1@northeastern.edu",
+    tel: "857 364 7113",
     social: {
       GitHub: {
         name: "GitHub",
@@ -37,7 +37,7 @@ export const DATA = {
 
       email: {
         name: "Send Email",
-        url: "mailto:haileycheng@proton.me",
+        url: "mailto:chen.i1@northeastern.edu",
         icon: Icons.email,
         navbar: false,
       },
@@ -46,73 +46,61 @@ export const DATA = {
 
   technicalExperience: [
     {
-      company: "Google DeepMind",
-      href: "https://deepmind.com",
+      company: "Pioneer Global Logistics",
+      href: "#",
       badges: [],
-      location: "Remote",
-      title: "Open Source Software Developer\nGoogle Summer of Code Participant",
-      logoUrl: "/deepmind.jpg",
-      start: "May 2025",
+      location: "Los Angeles, CA",
+      title: "Product Manager",
+      logoUrl: "/pioneer-logo.webp",
+      start: "Oct 2024",
       end: "Present",
       bullets: [
-        "Engineered a scalable model evaluation platform using Python, PyTorch, and Docker, which improved benchmarking efficiency by 15% and supported parallel execution across 5+ academic test suites (e.g., MMLU, HumanEval)",
-        "Designed and deployed a fully automated CI/CD pipeline with GitHub Actions to enforce 95% unit test coverage, guaranteeing reproducible, production-ready builds for a system"
+        "Redesigned the booking management module using React and RESTful APIs, reducing manual booking entry time by 40%, measured by average time OP spent per booking",
+        "Engineered a scalable 3PL integration framework by collaborating with carrier vendors and internal engineers, cutting coordination time by 45% through EDI/API automation",
+        "Led cross-functional initiative to automate carrier notice processing using AWS tools, resulting in 70% reduction in operations team's manual email handling time",
+        "Created internal OP KPI dashboard using Power BI, enabling real-time visibility of daily processed shipments, which increased order handling capacity by 20%, measured by daily shipment volume per OP",
+        "Facilitated user validation testing with SMEs, created UAT scripts and supported hypercare post-deployment, achieving a <5% issue rate in the first 3 weeks after launch"
       ],
     },
     {
-      company: "Stealth Startup",
+      company: "Phase",
       badges: [],
       href: "#",
-      location: "Hong Kong",
-      title: "Co-Founder & Machine Learning Engineer",
-      logoUrl: "/Stealth.jpeg",
-      start: "November 2024",
-      end: "Present",
+      location: "Boston, MA",
+      title: "Technical Product Manager",
+      logoUrl: "/phase_software_logo.jpeg",
+      start: "May 2023",
+      end: "Nov 2023",
       bullets: [
-        "Building next-generation AI products in stealth mode. Details coming soon!",
-        "Leading the development of proprietary deep learning models and scalable infrastructure for confidential projects."
+        "Led the app's user onboarding redesign, increasing new user retention by 30% and satisfaction rate to 82%",
+        "Conducted market research on animation software trends, driving a UI revamp that boosted engagement by 35%",
+        "Prioritized 20 product features through power-user interviews, streamlining development and aligning with user needs"
       ],
     },
     {
-      company: "City University of Hong Kong",
-      href: "https://www.cityu.edu.hk",
+      company: "ACE Exchange",
+      href: "#",
       badges: [],
-      location: "Hong Kong",
-      title: "Undergraduate Researcher",
-      logoUrl: "/cityuhk.jpg",
-      start: "September 2024",
-      end: "Present",
+      location: "Taipei, Taiwan",
+      title: "Product Manager",
+      logoUrl: "/leadtech_innovations_logo.jpeg",
+      start: "Aug 2020",
+      end: "Aug 2022",
       bullets: [
-        "Thesis: Hybrid ODE-Neural Network for Personalized Treatment Prediction",
-        "Engineered a multi-task deep learning model in Python and PyTorch as a computationally efficient surrogate for a complex 15-state ODE system, reducing prediction latency from hours to milliseconds",
-        "Designed the neural network (98% AUC, 91.7% accuracy) and developed an end-to-end MLOps pipeline for data generation (N=1,000), training, and validation, achieving an R² of 0.78 on regression tasks"
+        "Led an 11-member squad, including a designer, developers, and QA, to revamp the app deposit journey, increase the funnel conversion rate by 30%, and double the deposit rate",
+        "Build up the App data tracking rules and create dashboards on key performance indicators related to conversion rates, user engagement, and acquisition metrics to generate App product insights",
+        "Reduced user disputes by 18% by streamlining cross-functional team collaboration processes and providing self-service solutions to users"
       ],
     },
   ],
   education: [
     {
-      school: "City University of Hong Kong",
-      href: "https://www.cityu.edu.hk",
-      degree: "Bachelor of Science in Computing Mathematics (GREAT Stream), Minor in Computer Science",
-      logoUrl: "/cityuhk.jpg",
-      start: "2023",
-      end: "2027",
-    },
-    {
-      school: "University of California, Berkeley",
-      href: "https://berkeley.edu",
-      degree: "Exchange Student, Mathematics",
-      logoUrl: "/Berkeley.png",
-      start: "2024",
-      end: "2024",
-    },
-    {
-      school: "Pearson Edexcel A-Levels",
-      href: "https://qualifications.pearson.com",
-      degree: "4A* in Mathematics, Biology, Economics, Chinese\nReceived offers from HKU, CUHK, KCL and Manchester",
-      logoUrl: "/pearson.jpeg",
-      start: "2022",
-      end: "2023",
+      school: "Northeastern University",
+      href: "https://www.northeastern.edu",
+      degree: "Master of Science in Information System",
+      logoUrl: "/northeastern_university.png",
+      start: "Sep 2022",
+      end: "May 2024",
     },
   ],
   projects: [

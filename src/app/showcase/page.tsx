@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
-const TorusMugMorph = dynamic(() => import("@/components/torus-mug-morph"), { ssr: false });
-const ProteinFolding = dynamic(() => import("@/components/protein-folding").then(mod => mod.default), { ssr: false });
+// const TorusMugMorph = dynamic(() => import("@/components/torus-mug-morph"), { ssr: false });
+// const ProteinFolding = dynamic(() => import("@/components/protein-folding").then(mod => mod.default), { ssr: false });
 const RubiksCube = dynamic(() => import("@/components/rubiks-cube"), { ssr: false });
 
 export default function ShowcasePage() {
@@ -17,7 +17,10 @@ export default function ShowcasePage() {
         </p>
             </div>
       </div>
-      <TorusMugMorph />
+      {/* <TorusMugMorph /> */}
+      <div className="flex items-center justify-center h-64 bg-muted rounded-lg">
+        <p className="text-muted-foreground">Torus Mug Morph component temporarily disabled due to dependency issues</p>
+      </div>
         </div>
       </section>
       
@@ -31,7 +34,10 @@ export default function ShowcasePage() {
         </p>
             </div>
       </div>
-      <ProteinFolding />
+      {/* <ProteinFolding /> */}
+      <div className="flex items-center justify-center h-64 bg-muted rounded-lg">
+        <p className="text-muted-foreground">Protein Folding component temporarily disabled due to dependency issues</p>
+      </div>
         </div>
       </section>
       
@@ -50,4 +56,4 @@ export default function ShowcasePage() {
       </section>
     </main>
   );
-} 
+}
